@@ -14,9 +14,11 @@
     <title>VicGPT</title>
   </head>
   <body>
-    <header>VicGPT</header>
     <div id="app">
-      <div id="chat-container"></div>
+      <div>
+        <header>VicGPT</header>
+        <div id="chat-container"></div>
+      </div>
       <form>
         <textarea
           name="prompt"
@@ -25,9 +27,7 @@
           rows="1"
           placeholder="Ask VicGPT"
         ></textarea>
-        <button type="submit">
-          <img class="sendbtn" src="./public/send.svg" />
-        </button>
+        <button type="submit">Search</button>
       </form>
     </div>
     <script type="module" src="/main.js"></script>

@@ -43,7 +43,7 @@ function chatStripe(isAI, value, id) {
     <div class="wrapper ${isAI && "ai"}">
         <div class="chat">
             <div class="profile">
-            <img width="50" src="${isAI ? bot : user}" alt="${
+            <img width="30" src="${isAI ? bot : user}" alt="${
     isAI ? "bot" : "user"
   }" />
             </div>
