@@ -60,3 +60,29 @@ form > button {
   width: 50px;
   height: 90%;
 }
+
+.wrapper {
+  width: 100%;
+}
+
+#chat-container {
+  width: 100%;
+}
+
+.chat {
+  margin: 0.5rem 0.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile > img {
+  width: 50px;
+}
+
+.profile > message {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
